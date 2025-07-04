@@ -42,4 +42,8 @@ docker:
 compose:
 	docker-compose up --build
 
-.PHONY: venv ingest chunk embed app all clean docker compose
+# Run tests
+test:
+	. .venv/bin/activate && PYTHONPATH=. pytest -v
+
+.PHONY: venv ingest chunk embed app all clean docker compose test

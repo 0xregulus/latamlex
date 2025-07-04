@@ -80,6 +80,16 @@ make docker      # builds and runs the container
 make compose     # runs docker-compose up --build
 ```
 
+## 🧪 Running Tests
+
+To run all automated tests:
+
+```bash
+make test
+```
+
+This will execute all unit tests inside the `tests/` directory using `pytest`.
+
 ## 📁 Project Structure
 
 ```
