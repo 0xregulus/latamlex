@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pkl
+*.faiss
+*.jsonl
+vectorstore/
+data/
+.env
